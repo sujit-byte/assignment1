@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Contact Me</title>
+</head>
+<body>
+
+  <header>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="videoDemo.html">Video Demo</a></li>
+        <li><a href="sitereport.html">Site Report</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Feel free to reach out!</p>
+
+      <div class="contact-info">
+        <p><strong>Email:</strong> sujit.kc@gmail.com</p>
+        <p><strong>Phone:</strong> +977 9766475657</p>
+        <p><strong>Address:</strong> Kathmandu, Nepal</p>
+      </div>
+
+      <form action="mailto:sujit.kc@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Email</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Sujit KC | Kathmandu, Nepal</p>
+  </footer>
+
+</body>
+</html>
